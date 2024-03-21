@@ -1,0 +1,51 @@
+/* global */
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header */
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  background: blue;
+  padding: 5px;
+  color: #fff;
+}
+
+.menu-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 175px;
+  background: rgb(5, 95, 179);
+  color: #fff;
+  align-items: center;
+  
+}
+.menu {
+  display: flex;
+  gap: 30px;
+}
