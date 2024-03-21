@@ -1,51 +1,98 @@
 /* global */
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
+  color: #222;
 }
 
 img {
+  display: block;
   max-width: 100%;
-  margin: 0 auto;
 }
 
 p,
 h1,
 h2,
-ul {
+ul,
+li,
+a{
   margin: 0;
+  padding: 0;
 }
 
 ul {
-  padding: 0;
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* header */
+.info-bg{
+  background: #122ab2;
+  color: #fff;
+}
 
 .info {
   display: flex;
-  justify-content: space-around;
-  background: blue;
-  padding: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 0;
+  gap: 10px;
+}
+
+.info li:nth-child(odd){
+  margin: 0 10px;
+}
+
+.info a{
   color: #fff;
 }
 
 .menu-bg {
+  background: #2c70ff;
+}
+
+.menu{
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
-  padding: 20px 175px;
-  background: rgb(5, 95, 179);
-  color: #fff;
-  align-items: center;
-  
+  align-items: center;  
+  gap: 10px;
+  flex-wrap: wrap;
 }
-.menu {
+
+.menu a{
+  color: #fff;
+}
+
+.menu-nav {
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+}
+
+.menu-nav a{
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover{
+  color: #122ab2;
+}
+.menu-logo h1{
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0 10px;
 }
