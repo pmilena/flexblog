@@ -1,0 +1,20 @@
+img{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+ul{
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
