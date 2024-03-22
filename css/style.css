@@ -1,11 +1,12 @@
 /* global */
-*{
+
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #222;
 }
 
@@ -19,7 +20,7 @@ h1,
 h2,
 ul,
 li,
-a{
+a {
   margin: 0;
   padding: 0;
 }
@@ -32,13 +33,13 @@ a {
   text-decoration: none;
 }
 
-.container{
+.container {
   max-width: 960px;
   margin: 0 auto;
 }
 
 /* header */
-.info-bg{
+.info-bg {
   background: #122ab2;
   color: #fff;
 }
@@ -51,11 +52,11 @@ a {
   gap: 10px;
 }
 
-.info li:nth-child(odd){
+.info li:nth-child(odd) {
   margin: 0 10px;
 }
 
-.info a{
+.info a {
   color: #fff;
 }
 
@@ -63,16 +64,16 @@ a {
   background: #2c70ff;
 }
 
-.menu{
+.menu {
   padding: 15px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.menu a{
+.menu a {
   color: #fff;
 }
 
@@ -83,16 +84,58 @@ a {
   font-size: 1.25rem;
 }
 
-.menu-nav a{
+.menu-nav a {
   display: block;
   padding: 10px;
 }
 
-.menu-nav a:hover{
+.menu-nav a:hover {
   color: #122ab2;
 }
-.menu-logo h1{
+.menu-logo h1 {
   font-size: 2.25rem;
   font-weight: bold;
   margin: 0 10px;
 }
+
+/* Sobre */
+
+.introducao {
+  padding: 60px 10px;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.sobre {
+  display: flex;
+  padding: 40px 10px;
+  justify-content: space-between;
+  border-top: 2px solid #122ab2;
+  border-bottom: 2px solid #122ab2;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.sobre-info h1 {
+  margin-bottom: .5rem;
+  font-size: 2.25rem;
+}
+
+.sobre-info p {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: ;
+}
+
+.sobre-img{
+ flex: 1 1 160px;
+ margin: 0 10px;
+}
+
+
